@@ -1,0 +1,5 @@
+option java_package = "biz.vladiator.tgkafka";
+
+message TelegramMessage {
+  required string content = 1;
+}
